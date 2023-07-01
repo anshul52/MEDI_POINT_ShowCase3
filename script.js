@@ -1,4 +1,3 @@
-
 gsap.to([".icon","#list1>h1"],{
     scrollTrigger:{
         trigger:"#list1",
@@ -8,6 +7,29 @@ gsap.to([".icon","#list1>h1"],{
     },
     // opacity:0
 })
+//-----------------responsive nav bar-------------------
+var menu = document.querySelector("#hamburger");
+var hm1 = document.querySelector("#hm1");
+var hm3 = document.querySelector("#hm3");
+var nav = document.querySelector("#nav");
+var flag = true;
+
+menu.addEventListener("click",function(){
+    if(flag==true){
+        nav.style.left = "0%";
+        hm1.style.transform = 'rotate(45deg)';
+        hm3.style.transform = 'rotate(-45deg)';
+        flag=false;
+    }
+    else if(flag == false){
+        nav.style.left = "-100%";
+        hm1.style.transform = 'rotate(0deg)';
+        hm3.style.transform = 'rotate(0deg)';
+        flag= true;
+    }
+})
+// ---------------hamburger------------------
+
 
 // -------------------page5-anim--------------------------
 var pdls1 = document.querySelector("#pdls1");
