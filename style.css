@@ -657,21 +657,26 @@ scale: 1.2;
 #page8{
     background-color: #fff;
     height: 30vh;
- display: flex;
- flex-direction: column;
- align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
+    position: relative;
     padding-top: 2vw;
+    /* background-color: blue; */
     
     /* font-family: gil-reg; */
 }
 #page8 .ICONS{
     height: 5vh;
     width: 20%;
-    padding-top: 2vw;
+    /* padding-top: 4vw; */
     display: flex;
     justify-content: space-between;
-/* background-color: red; */
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    left: 41%;
 }
 #page8 .ICONS i{
     font-size: 2vw;
@@ -684,6 +689,44 @@ scale: 1.2;
     border-radius: 50%;
     width: 3vw;
 }
+.ICONS a{
+    /* background-color: rgb(72, 0, 255); */
+    position: absolute;
+    text-decoration: none;
+    /* opacity: 0; */
+}
+.ICONS:nth-child(1){
+    left: 10%;
+    position: absolute;
+}
+.ICONS:nth-child(2){
+    left: 15%;
+    position: absolute;
+
+}
+.ICONS:nth-child(3){
+    left: 20%;
+    position: absolute;
+}
+.ICONS:nth-child(4){
+    left: 35;position: absolute;
+    /* background-color: rgba(255, 0, 0, 0.71); */
+    /* opacity: 0; */
+}
+#a1{
+    position: absolute;
+    left: 25%;
+}
+#a2{
+    position: absolute;
+    left: 50%;
+}
+
+#a3{
+    position: absolute;
+    left: 75%;
+}
+
 /* ------------------------footer-------------------- */
 #foot{
     position: relative;
@@ -1477,6 +1520,26 @@ scale: 1.2;
     #page8 .ICONS i:nth-child(4){
         top: 350%;
         left: 120%;
+    }
+    #a1{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+    }
+    #a2{
+        position: absolute;
+        left: 25%;
+        top: -125%;
+    }
+    
+    #a3{
+        position: absolute;
+        left: 75%;
+        top: 50%;
+    }
+    #a4{
+        left: 75%;
+        top: -125%;
     }
     /* ------------------------footer-------------------- */
     #foot{
