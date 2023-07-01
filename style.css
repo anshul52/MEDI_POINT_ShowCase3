@@ -59,8 +59,8 @@ html,body{
     height: 5vh;
 }
 #logo{
-    height: 5vh;
-    margin-left: 2vw;
+    height: 10vh;
+    margin-left: 0vw;
 }
 #nav-right a{
     padding-bottom: .5vw;
@@ -147,9 +147,9 @@ html,body{
 }
 #lgoo{
     position: absolute;
-    height: 6vw;
-    top: 45%;
-    left: 65.5%;
+    height: 12vw;
+    top: 38%;
+    left: 60.5%;
 }
 #pg1-box{
     position: absolute;
@@ -708,6 +708,7 @@ scale: 1.2;
     margin-bottom: 1vw;
 }
 #lst1{
+    margin-left: 15vw;
     padding: 2vw 2vw;
     /* background-color: red; */
 }
@@ -724,15 +725,20 @@ scale: 1.2;
     padding: 2vw 2vw;
 }
 #foot img{
-    height: 20vh;
+    position:absolute;
+    height: 40vh;
+    top: -7%;
+    left: -1%;
+    /* padding: 0 4vw; */
+    /* padding-bottom: 4vw; */
+    /* background: #000; */
 }
 #hamburger{
     opacity: 0;
-    position: absolute;
+    position: fixed;
     top: 6%;
     left: 6%;
     font-size: 11vw;
-    z-index: 9999;
     height: 10vw;
     width: 10vw;
     /* background-color: red; */
@@ -758,7 +764,7 @@ scale: 1.2;
 @media (max-width:500px) {
     #hamburger{
         opacity: 1;
-        z-index: 9999999999;
+        z-index: 99999;
     }
     #nav{
         position: fixed;
@@ -1497,6 +1503,7 @@ scale: 1.2;
         margin-bottom: 1vw;
     }
     #lst1{
+        margin-left: 0vw;
         padding: 2vw 2vw;
         /* background-color: red; */
     }
