@@ -319,7 +319,7 @@ h1 span:hover{
 
 }
 .ri-shopping-cart-fill{
-    padding-left: .7vw;
+    padding-left: .9vw;
 }
 
 .pro a{
@@ -338,13 +338,13 @@ h1 span:hover{
     font-size: .9vw;
 }
 #list2 .pro:nth-child(5) h5{
-    font-size: .82vw;
+    font-size: .8vw;
 }
 #list3 .pro:nth-child(5) h5{
-    font-size: .96vw;
+    font-size: .8vw;
 }
 #list3 .pro:nth-child(6) h5{
-    font-size: .9vw;
+    font-size: .8vw;
 }
 #scroll-box{
     height: 5vh;
